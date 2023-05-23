@@ -1,0 +1,5 @@
+ALWAYS AWAKE final ledgers: 34 75 34 75 29 64
+ALWAYS AWAKE total communication: 7950600 3547
+ALWAYS AWAKE blocks communication: 2729887 34
+ALWAYS AWAKE votes communication: 941392 3461
+ALWAYS AWAKE proposals communication: 4279321 52

@@ -1,0 +1,29 @@
+[package]
+name = "goldfish"
+version = "0.1.0"
+edition = "2021"
+authors = ["Joachim Neu <jneu@stanford.edu>"]
+publish = false
+description = "Implementation of Goldfish consensus protocol"
+
+[dependencies]
+# sha3 = "0.10.6"
+blake3 = "1.3.3"
+milagro_bls = { git = "https://github.com/sigp/milagro_bls", tag = "v1.5.1" }
+serde = { version = "1.0", features = ["derive"] }
+serde_bytes = "0.11.9"
+serde-big-array = "0.5.1"
+serde_with = "2.3.2"
+bincode = "1.3.3"
+base64 = "0.21.0"
+rand = "0.8.5"
+csv = { git = "https://github.com/gootorov/rust-csv.git", rev = "31d1105f9ee50bf02dff178f20be4a1ec9fdff2d" }
+cached = "0.42.0"
+odds = "0.4.0"
+clap = { version = "4.2.1", features = ["derive"] }
+log = "0.4.17"
+env_logger = "0.10.0"
+rayon = "1.7.0"
+
+[profile.release]
+debug = true
